@@ -10,6 +10,9 @@ resource "aws_instance" "os1" {
   }
 }
 
-output "resutt" {
-  value = "aws_instance.os1.availability_zone"
+output "result" {
+  value = aws_instance.os1.availability_zone
+}
+output "result1" {
+  value = aws_instance.os1.instance_state
 }
