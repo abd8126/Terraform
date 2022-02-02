@@ -1,4 +1,4 @@
-# Terraform
+# Terraform Practicals
 * Step 1: Go to Terraform LW Folder and run the first.tf file using --> teraform init 
 * It wil setup the Cloud Provide<br>
 * Here: we use AWS Provider Setup
